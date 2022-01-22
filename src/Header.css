@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../public/background_1.jpg") no-repeat;
+  background-color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  /* radial-gradient(rgba(43, 55, 96, 1), rgba(11, 16, 35, 1)) */
+}
+
+.page_title {
+  display: inline-block;
+
+  width: 100%;
+  height: 100%;
+  background: url("../public/logo_1.png") no-repeat;
+  display: flex;
+  position: absolute;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 5%;
+  top: 400px;
+  color: green;
+  font-size: 20px;
+  text-align: left;
+}
+
+.description > button {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: white;
+  color: red;
+  text-transform: inherit;
+  border-radius: 25px;
+  width: 50%;
+}
+
+.description > button:hover {
+  background-color: red;
+  color: white;
+}
+
+/* .spotify_header {
+  display: inline-block;
+  top: 500px;
+  width: 50%;
+  height: 50%;
+  background: url("../images/spotify_logo2.png") no-repeat;
+  position: fixed;
+} */

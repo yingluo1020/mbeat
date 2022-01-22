@@ -1,0 +1,34 @@
+.content_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.line {
+  width: 600px;
+  height: 8px;
+  background: green;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.content_description {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+.content img {
+  width: 50%;
+}
+
+.content-text {
+  max-width: 30%;
+  padding-top: 110px;
+  font-size: 18px;
+}
